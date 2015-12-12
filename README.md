@@ -1,10 +1,9 @@
 # Segurança Residencial
 
-#Verificação de presença de intrusos em determinada residência:
+    Verificação de presença de intrusos em determinada residência:
         
     A partir do uso de um Sensor PIR associado a um Arduino, percebe-se a movimentação de algum 
     ser humano indevido no local em determinado horário, o que caracterizaria invasão de propriedade.
-    
     A informação em trâmite será transmitida para uma página Web através de bluetooth, 
     permitindo a visualização dessa ocorrência por alguma empresa ou equipe de segurança.
 
