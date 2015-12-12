@@ -1,19 +1,31 @@
 # Segurança Residencial
-  
 
-## Funcionalidade
+#Verificação de presença de intrusos em determinada residência:
+        
+    A partir do uso de um Sensor PIR associado a um Arduino, percebe-se a movimentação de algum 
+    ser humano indevido no local em determinado horário, o que caracterizaria invasão de propriedade.
+    
+    A informação em trâmite será transmitida para uma página Web através de bluetooth, 
+    permitindo a visualização dessa ocorrência por alguma empresa ou equipe de segurança.
 
-Controle de voz pra entrar na casa (Verifica se a pessoa pode ou não entrar na casa a partir do EasyVR Shield, 
-então permitindo a entrada de usuários a partir da voz registrada anteriormente - utilizando mais de uma voz para simular uma casa);
-	
-Verificação de gás (Verificar se existe um vazamento de gás na casa em ambientes mais específicos, como a cozinha, caso haja a presença desse, enviar uma mensagem para o dono da casa);
-	
-Sensor de calor (verificar se tem alguem na casa a partir de sensores infravermelhos, a partir daí disponibilizar essa medição para uma página web ou enviar mensagem para o dono da casa,  o que simula uma empresa de segurança e também o uso desse sistema independente de empresas);
+    Componentes: Sensor PIR, Arduino UNO/YUN, módulo bluetooth, jumpers, resistores
 
-Mensagem de texto para o usuário (Avisa ao usuário sobre os itens anteriores).
+    Verificação de existência de GLP, Butano e Propano para proteção dos moradores:
+     A partir do sensor de gás volátil MQ-2 associado a um Arduino verifica-se caso os gases
+     citados em algum cômodo 
+    estejam presentes- uso mais "adequado" para 
+    aplicação geral em cozinhas -, a informação em questão será transmitida para uma página web através de bluetooth,
+     permitindo a visualização
+    dessa ocorrência por alguma empresa ou equipe de segurança.
 
-## Material Necessário
+    Componentes: Sensor de gás volátil MQ-2, Arduino UNO/YUN, módulo bluetooth, jumpers, resistores
+    
+    Automação Residencial a partir de comando por voz:
+    Acionar sistemas através da voz por meio do reconhecimento de voz do Android e envio de mensagens 
+    para o arduino que decodificara a mensagem 
+    e acionará um módulo relé capaz de acionar lâmpadas, ventiladores, eletrodomésticos entre outros.
+    
+    Componentes: Arduino, Módulo Relé, Android, Jumpers
 
 
 
-## Montagem
